@@ -34,7 +34,8 @@
 1. Include full citations (author name, URL and date accessed) for each citation you include.
 2. If you have used any images or content that you have created yourself, include a comment in the references AND in the part of the code in which you use the content to indicate that the content was created by yourself.
 3. Remember to add a notes in this file about which feature you worked on.
-4. We also have to include individual comments in the code with: 
-	-Your full name and B00 number.
-	-What features you implemented (1-2sentences).
-	-What you learned from this group development experience (2-3 sentences).
+4. We also have to include individual comments in the code with:
+
+   *Your full name and B00 number.
+   *What features you implemented (1-2sentences).
+   *What you learned from this group development experience (2-3 sentences).
