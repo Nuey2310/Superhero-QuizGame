@@ -5,9 +5,9 @@
 - Banner ID (B00#): B00845519
 - Dal email: dh715291@dal.ca
 ---
-- Full name: 
-- Banner ID (B00#): 
-- Dal email: 
+- Full name: Arjun Banga
+- Banner ID (B00#): B00852696
+- Dal email: arjun.banga@dal.ca
 ---
 - Full name: 
 - Banner ID (B00#): 
