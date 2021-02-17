@@ -1,0 +1,40 @@
+# CSCI 2170: Winter 2021, Online Edition, Group Assignment-1
+
+## Group information:
+- Full name: Dhairy Raval
+- Banner ID (B00#): B00845519
+- Dal email: dh715291@dal.ca
+
+- Full name: 
+- Banner ID (B00#): 
+- Dal email: 
+
+- Full name: 
+- Banner ID (B00#): 
+- Dal email: 
+
+- Full name: 
+- Banner ID (B00#): 
+- Dal email: 
+
+- Full name: 
+- Banner ID (B00#): 
+- Dal email: 
+
+- Full name: 
+- Banner ID (B00#): 
+- Dal email: 
+
+## Note:
+- Read the assignment instructions completely.
+- If you are unsure about anything, please contact Raghav, Aref (TA) or the rest of the team.
+- Make sure that your queries are sent to Raghav at least 2 business days before the assignment is due, so as to avoid any delays in responses.
+
+## Citations and notes
+1. Include full citations (author name, URL and date accessed) for each citation you include.
+2. If you have used any images or content that you have created yourself, include a comment in the references AND in the part of the code in which you use the content to indicate that the content was created by yourself.
+3. Remember to add a notes in this file about which feature you worked on.
+4. We also have to include individual comments in the code with: 
+	-Your full name and B00 number.
+	-What features you implemented (1-2sentences).
+	-What you learned from this group development experience (2-3 sentences).
