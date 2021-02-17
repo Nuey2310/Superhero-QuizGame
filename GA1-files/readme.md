@@ -17,7 +17,7 @@
 - Banner ID (B00#): 
 - Dal email: 
 
-- Full name: 
+-Full name: 
 - Banner ID (B00#): 
 - Dal email: 
 
@@ -36,6 +36,6 @@
 3. Remember to add a notes in this file about which feature you worked on.
 4. We also have to include individual comments in the code with:
 
-   *Your full name and B00 number.
-   *What features you implemented (1-2sentences).
-   *What you learned from this group development experience (2-3 sentences).
+   * Your full name and B00 number.
+   * What features you implemented (1-2sentences).
+   * What you learned from this group development experience (2-3 sentences).
