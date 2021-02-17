@@ -4,28 +4,23 @@
 - Full name: Dhairy Raval
 - Banner ID (B00#): B00845519
 - Dal email: dh715291@dal.ca
-
-
+---
 - Full name: 
 - Banner ID (B00#): 
 - Dal email: 
-
-
+---
 - Full name: 
 - Banner ID (B00#): 
 - Dal email: 
-
-
+---
 - Full name: 
 - Banner ID (B00#): 
 - Dal email: 
-
-
+---
 - Full name: 
 - Banner ID (B00#): 
 - Dal email: 
-
-
+---
 - Full name: 
 - Banner ID (B00#): 
 - Dal email: 
