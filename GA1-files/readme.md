@@ -13,9 +13,9 @@
 - Banner ID (B00#): B00850212
 - Dal email: mf278426@dal.ca
 ---
-- Full name: 
-- Banner ID (B00#): 
-- Dal email: 
+- Full name: Ishan Bhatia
+- Banner ID (B00#): B00835259
+- Dal email: is998912@dal.ca
 ---
 - Full name: 
 - Banner ID (B00#): 
