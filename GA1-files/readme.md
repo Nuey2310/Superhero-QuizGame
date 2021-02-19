@@ -9,9 +9,9 @@
 - Banner ID (B00#): B00852696
 - Dal email: arjun.banga@dal.ca
 ---
-- Full name: 
-- Banner ID (B00#): 
-- Dal email: 
+- Full name: Miftahul Kashfy 
+- Banner ID (B00#): B00850212
+- Dal email: mf278426@dal.ca
 ---
 - Full name: 
 - Banner ID (B00#): 
