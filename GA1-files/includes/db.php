@@ -1,3 +1,8 @@
+<!-- contributed by:
+    Name: Dhairy Raval
+    Banner Number: B00845519
+    - Implemented the database for the game 
+    - Created db.php file for connection with the database-->
 <?php
 	
 	$hostServer = "localhost";

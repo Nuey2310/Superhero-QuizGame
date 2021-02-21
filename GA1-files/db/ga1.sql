@@ -7,6 +7,12 @@
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.13
 
+-- contributed by:
+--  Name: Dhairy Raval
+--  Banner Number: B00845519
+--  Implemented the database for the game 
+--  Created db.php file for connection with the database
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
