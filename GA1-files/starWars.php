@@ -6,7 +6,7 @@
     - Implemented the loop for displaying the questions -->
 
 
-<?php
+    <?php
     include "includes/header.php";
 ?>
 
@@ -44,15 +44,25 @@ nventore voluptatem atque tenetur.</p>
                 <a href="#questionNumber9" class="questions">Question 9</a>
                 <a href="#questionNumber10" class="questions">Question 10</a>
             </div>
+            <div id="submitButtonContainer">
+                <input type="submit" value="Submit" class="submitButton" form = "quizForm">          
+            </div>
         </div>
 
-        <div class="questionContent">
+         <div class="questionContent">
+            <div id = "timer" style = "position: sticky; top: 2%;">
+                    <h1 id = "timer-content" style = "float: right; margin-right: 1%; font-family: 'Roboto', 'Helvetica', sans-serif; font-size: 1.8vw;">
+                    <span> Timer: </span>
+                    <span id = "time">00:05:00</span>
+                    </h1>
+            </div>
+            <form action="index.php" method = "#" id = "quizForm">
+
 
         <?php
             for ($x = 1; $x <= 10; $x++) {
             
         ?>
-
 
                 <div class="individualQuestions">
 
@@ -66,8 +76,6 @@ nventore voluptatem atque tenetur.</p>
 
                     </div>
                     
-
-                    <form action="" method = "#">
 
                         <div class = "options">
                             <input type="radio" name = "selection$x" id = "" value = "">
@@ -88,7 +96,6 @@ nventore voluptatem atque tenetur.</p>
                             <label for="">Answer 3</label>
                         </div>
 
-                    </form>
 
                     END;
 
@@ -100,13 +107,13 @@ nventore voluptatem atque tenetur.</p>
 
                     }
                 ?>
+                </form>
+
 
         </div>
 
     </div>
-
 </body>
-
 <?php
     include "includes/footer.php";
 ?>

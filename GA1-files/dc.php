@@ -1,11 +1,4 @@
 
-<!-- contributed by:
-    Name: Ishan Bhatia
-    Banner Number: B00835259
-    - Implemented the front end aspects of the game
-    - Implemented the loop for displaying the questions -->
-    
-
 <?php
     include "includes/header.php";
 ?>
@@ -24,12 +17,11 @@ tenetur numquam vitae, veniam quasi voluptatem distinctio sed! Laborum ex beatae
 nventore voluptatem atque tenetur.</p>
 
 <body class="marvelBody">
-
     <div class="mainContent">
-
+    
         <div class="sideBar">
 
-            <p id="quizHeading">DC QUIZ</p>
+            <p id="quizHeading">DC<br>QUIZ</p>
 
             <div class="questionContainer">
 
@@ -44,66 +36,80 @@ nventore voluptatem atque tenetur.</p>
                 <a href="#questionNumber9" class="questions">Question 9</a>
                 <a href="#questionNumber10" class="questions">Question 10</a>
             </div>
+
+            <div id="submitButtonContainer">
+
+                <input type="submit" value="Submit" class="submitButton" form = "quizForm">
+                
+            </div>
         </div>
 
+        <!-- <p>Answer the Following Questions</p> -->
+        
         <div class="questionContent">
-
+            <div id = "timer" style = "position: sticky; top: 2%;">
+                    <h1 id = "timer-content" style = "float: right; margin-right: 1%; font-family: 'Roboto', 'Helvetica', sans-serif; font-size: 1.8vw;">
+                    <span> Timer: </span>
+                    <span id = "time">00:05:00</span>
+                    </h1>
+            </div>
+            <form action="index.php" method = "#" id = "quizForm">
         <?php
             for ($x = 1; $x <= 10; $x++) {
             
         ?>
 
-                <div class="individualQuestions">
+            <!-- <div class="questionContent"> -->
 
+                <div class="individualQuestions">
+                   
                     <?php
 
                     $hereDoc = <<<END
                     
                     <div id="questionNumber$x">
 
-                        <p class="questionText">Question $x:<br><br>What is the highest grossing marvel movie of all time ?</p>
+                    <p class="questionText">What is the highest grossing marvel movie of all time ?</p>
 
                     </div>
-                    
 
-                    <form action="" method = "#">
+                    END;
+
+                    echo $hereDoc;
+                    
+                    ?>
+
 
                         <div class = "options">
-                            <input type="radio" name = "selection$x" id = "" value = "">
+                            <input type="radio" name = "" id = "" value = "">
                             <label for="">Answer 1</label>
                         </div>
 
                         <br>
 
                         <div class = "options">
-                            <input type="radio" name = "selection$x" id = "" value = "">
+                            <input type="radio" name = "" id = "" value = "">
                             <label for="">Answer 2</label>
                         </div>
 
                         <br>
 
                         <div class = "options">
-                            <input type="radio" name = "selection$x" id = "" value = "">
+                            <input type="radio" name = "" id = "" value = "">
                             <label for="">Answer 3</label>
                         </div>
 
-                    </form>
-
-                    END;
-
-                    echo $hereDoc;
-                    ?>
 
                 </div>
                 <?php
 
                     }
                 ?>
+          </form>
+
 
         </div>
-
     </div>
-
 </body>
 
 <?php
