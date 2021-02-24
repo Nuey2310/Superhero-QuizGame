@@ -66,7 +66,7 @@ nventore voluptatem atque tenetur.</p>
                     </div>
                     
 
-                    <form action="" method = "#">
+                    <form action="dc.php" method = "#">
 
                         <div class = "options">
                             <input type="radio" name = "selection$x" id = "" value = "">
