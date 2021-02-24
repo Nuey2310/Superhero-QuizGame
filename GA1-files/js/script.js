@@ -1,4 +1,8 @@
 
+function myFunction() {
+   alert("I am a pop up ! ");
+}
+
 function startQuiz(id) {
     alert("You are about to start the quiz.");
 }
