@@ -49,42 +49,53 @@ nventore voluptatem atque tenetur.</p>
         <div class="questionContent">
 
         <?php
-            for ($x = 1; $x <= 10; $x++) {
+            require_once "includes/db.php";
+            $query = "SELECT*FROM `question-data` WHERE `Type` = 'DC'";
+            $result = $dbConnection->query($query);
+            $x = 1;
+//            Use wile loop to get data from the database
+            while ($row = $result->fetch_assoc()) {
             
         ?>
 
                 <div class="individualQuestions">
 
                     <?php
+//                  These variables are used to diplay questionString and options in html
+                    $questionString = $row['questionText'];
+                    $optionA = $row['option1'];
+                    $optionB = $row['option2'];
+                    $optionC = $row['option3'];
 
+                    //                Use POST method to send form by default.
                     $hereDoc = <<<END
                     
                     <div id="questionNumber$x">
 
-                        <p class="questionText">Question $x:<br><br>What is the highest grossing marvel movie of all time ?</p>
+                        <p class="questionText">Question $x:<br><br>$questionString</p>
 
                     </div>
                     
 
-                    <form action="dc.php" method = "#">
+                     <form action="dc.php" method = "POST">
 
                         <div class = "options">
-                            <input type="radio" name = "selection$x" id = "" value = "">
-                            <label for="">Answer 1</label>
+                            <input type="radio" name = "selection$x" id = "choiceA$x" value = "A">
+                            <label for="">A $optionA</label>
                         </div>
 
                         <br>
 
                         <div class = "options">
-                            <input type="radio" name = "selection$x" id = "" value = "">
-                            <label for="">Answer 2</label>
+                            <input type="radio" name = "selection$x" id = "choiceB$x" value = "B">
+                            <label for="">B $optionB</label>
                         </div>
 
                         <br>
 
                         <div class = "options">
-                            <input type="radio" name = "selection$x" id = "" value = "">
-                            <label for="">Answer 3</label>
+                            <input type="radio" name = "selection$x" id = "choiceC$x" value = "C">
+                            <label for="">C $optionC</label>
                         </div>
 
                     </form>
@@ -96,7 +107,7 @@ nventore voluptatem atque tenetur.</p>
 
                 </div>
                 <?php
-
+                    $x++;
                     }
                 ?>
 

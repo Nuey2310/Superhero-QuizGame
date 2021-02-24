@@ -61,6 +61,7 @@ nventore voluptatem atque tenetur.</p>
                 <div class="individualQuestions">
 
                     <?php
+                    //                  These variables are used to diplay questionString and options in html
 
                     $questionString = $row['questionText'];
                     $optionA = $row['option1'];
@@ -105,7 +106,7 @@ nventore voluptatem atque tenetur.</p>
 
                 </div>
                 <?php
-
+                    $x++;
                     }
                 ?>
 
