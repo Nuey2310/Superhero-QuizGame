@@ -12,7 +12,15 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `GA1`
---
+---- contributed by:
+--  Name: Dhairy Raval
+--  Banner Number: B00845519
+--  Implemented the database for the game
+--  Created db.php file for connection with the database
+-- Refactored by:
+--Neuer Gao B00785904
+-- Optimized database structure, make the structure good for back end development.
+-- Add new column distinguish question type, changed the correct answer from string to the option char.
 
 -- --------------------------------------------------------
 
