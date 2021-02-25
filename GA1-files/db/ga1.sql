@@ -21,6 +21,7 @@ SET time_zone = "+00:00";
 --  Name: Miftahul Kashfy
 --  Banner Number: B00850212
 --  Collected the all the questions for the database
+--  Error checking
 -- Refactored by:
 -- Neuer Gao B00785904
 -- Optimized database structure, make the structure good for back end development.
@@ -67,7 +68,7 @@ INSERT INTO `question-data` (`SrNo`, `Type`, `questionText`, `option1`, `option2
    (18, 'StarW', 'According to Yoda, which of these is the path to the Dark Side?', 'Fear', 'Pain', 'Suffering', 'A'),
    (19, 'StarW', 'What is the language of the Wookies?', 'Shyriiwook', 'Wookieeese', 'Wookie', 'A'),
    (20, 'StarW', 'Who told Luke that there was another Skywalker?', 'Yoda', 'Darth Vader', 'Obi-Wan Kenobi', 'A'),
-   (21, 'DC', 'How did the original Flash get his powers?', 'Inhaled nuclear fumes', 'Gamma radiation', 'Caught in space/time warp', ''),
+   (21, 'DC', 'How did the original Flash get his powers?', 'Inhaled nuclear fumes', 'Gamma radiation', 'Caught in space/time warp', 'A'),
    (22, 'DC', 'What is the main superhero team of the DC Universe?', 'Justice League', 'Guardians of the Galaxy', 'Teen Titans', 'A'),
    (23, 'DC', 'Which magician is a master of the occult?', 'John Constantine', 'The Phantom Stranger', 'Doctor Fate', 'A'),
    (24, 'DC', 'Who was Batman\'s main rival in Batman Returns?', 'The Penguin', 'Lex Luthor', 'Doomsday', 'A'),
