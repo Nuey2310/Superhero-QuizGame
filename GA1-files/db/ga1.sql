@@ -12,7 +12,7 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `GA1`
----- contributed by:
+-- contributed by:
 --  Name: Dhairy Raval
 --  Banner Number: B00845519
 --  Implemented the database for the game
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --  Name: Miftahul Kashfy
 --  Banner Number: B00850212
 --  Collected the all the questions for the database
+--  Randomized the database
+--  Correct errors
 -- Refactored by:
 -- Neuer Gao B00785904
 -- Optimized database structure, make the structure good for back end development.
