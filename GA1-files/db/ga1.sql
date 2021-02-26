@@ -22,7 +22,7 @@ SET time_zone = "+00:00";
 --  Banner Number: B00850212
 --  Collected the all the questions for the database
 -- Refactored by:
---Neuer Gao B00785904
+-- Neuer Gao B00785904
 -- Optimized database structure, make the structure good for back end development.
 -- Add new column distinguish question type, changed the correct answer from string to the option char.
 
