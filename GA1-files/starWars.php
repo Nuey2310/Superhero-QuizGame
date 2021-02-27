@@ -38,20 +38,31 @@ include "includes/header.php";
 
         <div class="questionContainer">
 
-            <a href="#questionNumber1" class="questions">Question 1</a>
-            <a href="#questionNumber2" class="questions">Question 2</a>
-            <a href="#questionNumber3" class="questions">Question 3</a>
-            <a href="#questionNumber4" class="questions">Question 4</a>
-            <a href="#questionNumber5" class="questions">Question 5</a>
-            <a href="#questionNumber6" class="questions">Question 6</a>
-            <a href="#questionNumber7" class="questions">Question 7</a>
-            <a href="#questionNumber8" class="questions">Question 8</a>
-            <a href="#questionNumber9" class="questions">Question 9</a>
-            <a href="#questionNumber10" class="questions">Question 10</a>
+                <a href="#questionNumber1" class="questions">Question 1</a>
+                <a href="#questionNumber2" class="questions">Question 2</a>
+                <a href="#questionNumber3" class="questions">Question 3</a>
+                <a href="#questionNumber4" class="questions">Question 4</a>
+                <a href="#questionNumber5" class="questions">Question 5</a>
+                <a href="#questionNumber6" class="questions">Question 6</a>
+                <a href="#questionNumber7" class="questions">Question 7</a>
+                <a href="#questionNumber8" class="questions">Question 8</a>
+                <a href="#questionNumber9" class="questions">Question 9</a>
+                <a href="#questionNumber10" class="questions">Question 10</a>
+            </div>
+            <div id="submitButtonContainer">
+                <input type="submit" value="Submit" class="submitButton" form = "quizForm">          
+            </div>
         </div>
     </div>
 
-    <div class="questionContent">
+         <div class="questionContent">
+            <div id = "timer" style = "position: sticky; top: 2%;">
+                    <h1 id = "timer-content" style = "float: right; margin-right: 1%; font-family: 'Roboto', 'Helvetica', sans-serif; font-size: 1.8vw;">
+                    <span> Timer: </span>
+                    <span id = "time">00:05:00</span>
+                    </h1>
+            </div>
+
 
         <?php
         require_once "includes/db.php";
@@ -81,7 +92,7 @@ include "includes/header.php";
 
                     </div>
                     
-                    <form action="dc.php" method = "POST">
+                    <form action="dc.php" method = "POST" id = "quizForm>
 
                         <div class = "options">
                             <input type="radio" name = "selection$x" id = "choiceA$x" value = "A">
@@ -102,12 +113,13 @@ include "includes/header.php";
                             <label for="">C $optionC</label>
                         </div>
 
-                    </form>
 
                     END;
 
                 echo $hereDoc;
                 ?>
+                </form>
+
 
             </div>
             <?php
@@ -120,7 +132,6 @@ include "includes/header.php";
 </div>
 
 </body>
-
 <?php
 include "includes/footer.php";
 ?>

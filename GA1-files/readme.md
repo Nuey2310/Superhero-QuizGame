@@ -39,3 +39,11 @@
    * Your full name and B00 number.
    * What features you implemented (1-2sentences).
    * What you learned from this group development experience (2-3 sentences).
+
+Citation List:
+
+1. Learning and Implementing Modals Using Bootstrap
+	I customised the basic template available for modals in Bootstrap 
+	* URL: https://getbootstrap.com/docs/5.0/components/modal/
+	* Date accessed: 23 Jan 2021
+	* Credits to The Bootstrap team(https://getbootstrap.com/docs/5.0/about/team/) and contributors(https://github.com/twbs/bootstrap/graphs/contributors)

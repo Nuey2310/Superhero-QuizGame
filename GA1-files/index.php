@@ -32,19 +32,19 @@
 
         <div class="availableQuizzes">
 
-            <a href="marvel.php" id="mainMarvel">
+            <a href="marvel.php" id="mainMarvel" onclick = "startQuiz(this);">
                 <div id="marvel">
                     <p id="marvelHeading">MARVEL</p>
                 </div>
             </a>
 
-            <a href="dc.php" id="mainDC">
+            <a href="dc.php" id="mainDC" onclick = "startQuiz(this);">
                 <div id="DC">
                     <p id="dcHeading">DC</p>
                 </div>
             </a>
 
-            <a href="starWars.php" id="mainStarWars">
+            <a href="starWars.php" id="mainStarWars" onclick = "startQuiz(this);">
                 <div id="starWars">
                     <p id="starWarsHeading">STAR WARS</p>
                 </div>
