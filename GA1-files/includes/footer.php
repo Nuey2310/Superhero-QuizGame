@@ -7,7 +7,12 @@
 <footer>
         <p> &copy; copyright</p>
     </footer>
-    
+    <?php
+        if(isset($dbConnection)){
+            $dbConnection->close();
+        }
+
+    ?>
 </body>
 
 

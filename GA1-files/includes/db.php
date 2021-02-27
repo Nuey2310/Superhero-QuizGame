@@ -7,8 +7,8 @@
 	
 	$hostServer = "localhost";
 	$usrN = "root";
-	$pass = "";
-	$dbName = "ga1";
+	$pass = "root";
+	$dbName = "GA1";
 	$dbConnection = new mysqli($hostServer, $usrN, $pass, $dbName);
 
 	if($dbConnection -> connect_error){
