@@ -6,13 +6,18 @@
     
     Name: Arjun Banga
     -If index page is accessed after the quiz is complete, display the score
-    -Call to the startQuiz popup-->
+    -Call to the startQuiz popup
+
+    Name: Miftahul Kashfy
+    Banner Number: B00850212
+    - Implemented the display of the quiz result once the quiz is over
+    - added the final touches-->
 
 <?php
     include "includes/header.php";
     if ( isset($_GET['complete'])) {
         $var = $_GET['complete'];
-        echo "<h1>$var</h1>";
+        echo '<script type="text/javascript">alert("Thank you for playing the superhero quiz! \nYour score is "+'.$var.'+"/10!")</script>';
     }
 ?>
 

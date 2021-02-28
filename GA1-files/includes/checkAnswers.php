@@ -1,6 +1,9 @@
 <!--Name: Arjun Banga
     Banner: B00852696 
     -Script to check the answers and pass the score to index.php 
+    Name : Miftahul Kashfy
+    Banner: B00850212
+    - made changes to adjust score display
 -->
 <?php
     $score = 0;
@@ -12,7 +15,7 @@
             $score++;
         }
     }
-    echo "<h2> $score</h2>";
+    
     //Pass the score to index.php as a super global get variable
     header("Location: ../index.php?complete=$score");
 ?>
