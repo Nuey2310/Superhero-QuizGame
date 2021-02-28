@@ -12,7 +12,10 @@
     Arjun Banga
     Banner: B00852696
     - Implementing the quiz timer using JS.
-    - Handling the questions and options content created above to use in checkAnswers script-->
+    - Handling the questions and options content created above to use in checkAnswers script
+    Name: Miftahul Kashfy
+    Banner Number: B00850212
+    - added the final touches-->
 
 
 <?php
@@ -26,11 +29,7 @@
     </div>
 </div>
 
-<p id="quizIntroPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut aperiam fugiat, maxime, 
-tenetur numquam vitae, veniam quasi voluptatem distinctio sed! Laborum ex beatae veniam nostrum i
-nventore voluptatem atque tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut aperiam fugiat, maxime, 
-tenetur numquam vitae, veniam quasi voluptatem distinctio sed! Laborum ex beatae veniam nostrum i
-nventore voluptatem atque tenetur.</p>
+<p id="quizIntroPara">Are you a True Marvel fan? Let's see how many of these questions you can get correct! <br> Finish the quiz before the time runs out!</p>
 
 <main class="marvelBody">
 
