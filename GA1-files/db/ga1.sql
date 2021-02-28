@@ -97,7 +97,7 @@ INSERT INTO `question-data` (`SrNo`, `Type`, `questionText`, `option1`, `option2
 (26, 'DC', 'What is the Superman logo a Kryptonian symbol for?', 'Power', 'Beauty', 'Hope', 'C'),
 (27, 'DC', 'What is Wonder Woman\'s whip called?', 'Lasso Of Truth', 'Wonder Whip', 'Golden Lariat', 'A'),
    (28, 'DC', 'Who managed to punch Superman into a space coma?', 'Lex Luthor', 'Booster Gold', 'Doomsday', 'C'),
-   (29, 'DC', '', 'Batman', 'Superman', 'Wonder Woman', 'A'),
+   (29, 'DC', 'Which DC hero has made more appearances than any other?', 'Batman', 'Superman', 'Wonder Woman', 'A'),
    (30, 'DC', 'Who is Gotham’s Clown Prince of Crime?', 'Harley Quinn',  'The Joker', 'Darkseid', 'B');
 
 --
