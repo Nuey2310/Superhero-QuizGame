@@ -2,10 +2,18 @@
 <!-- contributed by:
     Name: Ishan Bhatia
     Banner Number: B00835259
-    Implemented the front end aspects of the game -->
+    Implemented the front end aspects of the game 
+    
+    Name: Arjun Banga
+    -If index page is accessed after the quiz is complete, display the score
+    -Call to the startQuiz popup-->
 
 <?php
     include "includes/header.php";
+    if ( isset($_GET['complete'])) {
+        $var = $_GET['complete'];
+        echo "<h1>$var</h1>";
+    }
 ?>
 
 <main>

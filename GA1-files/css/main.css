@@ -11,6 +11,7 @@
 a{
     text-decoration: none;
 }
+
 *{
 
     margin: 0;
@@ -67,7 +68,6 @@ header > a{
 
     font-size: 50px;
     font-weight: 700;
-    
 }
 
 .introContent {
@@ -151,12 +151,6 @@ header > a{
 
 
 
-
-
-
-
-
-
 /* marvel.php */
 
 .landingImg1{
@@ -217,11 +211,6 @@ header > a{
     grid-column: 2/3;
 }
 
-.marvelBody{
-
-    background-color: #ededed;
-}
-
 .mainContent{
 
     background-color: white;
@@ -263,7 +252,7 @@ header > a{
     max-width: 90%;
 }
 
-.questions{
+.questions, .questions1, .questions2{
 
     display: block;
     font-size: 1vw;
@@ -285,9 +274,45 @@ header > a{
 
 }
 
+#quizHeading1{
+
+    padding: 20px 20px 5px 20px;
+    font-size: 2.6vw;
+    font-weight: 500;
+    margin-top: 2%;
+    color: black;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+}
+
+#quizHeading2{
+
+    padding: 20px 20px 5px 20px;
+    font-size: 2.6vw;
+    font-weight: 500;
+    margin-top: 2%;
+    color: royalblue;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+}
+
 .questions:hover {
 
     color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+/*.questions1:hover {
+
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}*/
+
+.questions2:hover {
+
+    color: royalblue;
     transition: all 0.3s ease-in-out;
 }
 
@@ -295,19 +320,21 @@ header > a{
 
     margin-left: 10%;
     margin-top: 10%;
+    margin-right: 4.5%;
     margin-bottom: 10%;
 }
 
 .questionText{
 
     padding-bottom: 30px;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 }
 
-.options{
+.options, .options1, .options2{
 
     background-color: #EEE;
-    width: 65%;
+    width: 600px;
+    margin-top: 20px;
     padding: 10px;
     border-radius: 20px;
 
@@ -316,14 +343,64 @@ header > a{
 .options:hover{
 
     background-color: red;
+    color: white;
     transition: all 0.4s ease-in-out;
 }
 
-.options > label{
+.options1:hover{
 
-    font-size: 1.4vw;
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease-in-out;
 }
 
+.options2:hover{
+
+    background-color: royalblue;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+#ques{
+
+    font-size: 1vw;
+}
+
+#submitButtonContainer{
+
+    border-top: 1px solid #e4e4e4;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.submitButton, .submitButton1, .submitButton2{ 
+
+    height: 45px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.submitButton:hover{
+
+    background-color: red;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.submitButton1:hover{
+
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.submitButton2:hover{
+
+    background-color: royalblue;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
 
 /* for footer.php */
 
