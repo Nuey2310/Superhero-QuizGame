@@ -12,7 +12,12 @@
     Arjun Banga
     Banner: B00852696
     - Implementing the quiz timer using JS.
-    - Handling the questions and options content created above to use in checkAnswers script-->
+    - Handling the questions and options content created above to use in checkAnswers script
+
+    Miftahul Kashfy
+    Banner: B00850212
+    - Fixed the sumbit button for the dc page, was not working
+    - finishing touches added-->
     
 
 <?php
@@ -56,7 +61,7 @@ nventore voluptatem atque tenetur.</p>
 
             <div id="submitButtonContainer">
 
-                <input type="submit" value="Submit" class="submitButton1" form = "quizFom">
+                <input type="submit" value="Submit" class="submitButton1" form = "quizForm">
                 
             </div>
 
