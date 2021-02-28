@@ -35,11 +35,7 @@
 
     <div class="introContent">
 
-        <p id="quizIntroPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut aperiam fugiat, maxime, 
-        tenetur numquam vitae, veniam quasi voluptatem distinctio sed! Laborum ex beatae veniam nostrum i
-        nventore voluptatem atque tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ut aperiam fugiat, maxime, 
-        tenetur numquam vitae, veniam quasi voluptatem distinctio sed! Laborum ex beatae veniam nostrum i
-        nventore voluptatem atque tenetur.</p>
+        <p id="quizIntroPara">"Heroes are made by the path they choose not the powers they are graced with"<br> Select from the three super hero quizzes below to start the game. <br> MARVEL? DC? STARWARS? Which one is your favourite? </p>
 
         <h1 id="subHeading">SELECT A QUIZ TOPIC</h1>
 
