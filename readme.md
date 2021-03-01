@@ -53,13 +53,13 @@ Features Implemented and Values learned:
 	* Made a Modal to display the instructions to play the game 
 
 	I learned the importance of communication in group projects like this one. Also, this project reminded me that in a group project different people have different views and ideas, the best way to move forward is to adjust and adapt.
+    	Website hosted at: https://web.cs.dal.ca/~draval/2170-ga1/GA1-files/
 
 - Neuer Gao
     * Refactored the database based on what Dhairy do, made the database structure better for back-end development and made the improved the db.php file. 
 	* Get the information from the database, display them on 3 websites (marvel.php; dc.php, starWars.php), made the html elements generated dynamically by php. 
 	* Fixed some error before we submit and host this website.
  
-	Website hosted at: https://web.cs.dal.ca/~draval/2170-ga1/GA1-files/
 
 - Miftahul Kashfy
 	* I collected all the questions for the quizzes
