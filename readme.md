@@ -21,9 +21,6 @@
 - Banner ID (B00#): 
 - Dal email: 
 ---
-- Full name: 
-- Banner ID (B00#): 
-- Dal email: 
 
 ## Note:
 - Read the assignment instructions completely.
@@ -47,3 +44,12 @@ Citation List:
 	* URL: https://getbootstrap.com/docs/5.0/components/modal/
 	* Date accessed: 23 Jan 2021
 	* Credits to The Bootstrap team(https://getbootstrap.com/docs/5.0/about/team/) and contributors(https://github.com/twbs/bootstrap/graphs/contributors)
+
+
+Features Implemented and Values learned:
+
+- Dhairy Raval
+	* Implemented the database and made the db.php file to connect it with the rest of the game
+	* Made a Modal to display the instructions to play the game 
+
+	I learned the importance of communication in group projects like this one. Also, this project reminded me that in a group project different people have different views and ideas, the best way to move forward is to adjust and adapt.
