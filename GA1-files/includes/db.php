@@ -6,9 +6,9 @@
 <?php
 	
 	$hostServer = "db.cs.dal.ca";
-	$usrN = "banga";
-	$pass = "85bPiF2jnKPGcD5YGmfooYyC6";
-	$dbName = "banga";
+	$usrN = "jiahaog";
+	$pass = "mXxXADuGgEL5CvnjhqQ4tKotq";
+	$dbName = "jiahaog";
 	$dbConnection = new mysqli($hostServer, $usrN, $pass, $dbName);
 
 	if($dbConnection -> connect_error){
