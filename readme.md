@@ -60,3 +60,15 @@ Features Implemented and Values learned:
 	* Fixed some error before we submit and host this website.
  
 	Website hosted at: https://web.cs.dal.ca/~draval/2170-ga1/GA1-files/
+
+- Miftahul Kashfy
+	* I collected all the questions for the quizzes
+	* I made corrections in the codes in dc.php and the ga1.sql
+	* Randomized the answers in the database 
+	* I displayed the result score of the quiz and added the intro messages for the pages
+
+	Content wise I learned a lot of things from this project. Other than that I learned that communication is the key. Helping the team members of the whenever possible is important. Everyone has different courses and workload from other courses too, we have to manage the time and work accordingly.
+
+	Website hosted at: https://web.cs.dal.ca/~kashfy/2170-ga1/GA1-files/
+	
+
