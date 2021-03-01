@@ -45,6 +45,38 @@ Citation List:
 	* Date accessed: 23 Jan 2021
 	* Credits to The Bootstrap team(https://getbootstrap.com/docs/5.0/about/team/) and contributors(https://github.com/twbs/bootstrap/graphs/contributors)
 
+2. Google Fonts. Roboto. 
+	* Retrieved from - https://fonts.google.com/specimen/Roboto?preview.text_type=custom&sidebar.open=true&selection.family=Roboto:wght@300;400;500;700 
+	* Date accessed - 17 February 2021
+
+
+3. Moose Photos. 
+	* Retrieved from - https://www.pexels.com/photo/classic-blue-coupe-die-cast-model-1037995/ 
+	* Date accessed - 17 February 2021
+
+4. Ahmad Qime. 
+	* Retrieved from - https://www.pexels.com/photo/people-wearing-spider-man-adult-costume-walking-on-train-station-2859016/ 
+	* Date accessed - 17 February 2021
+
+
+5. Daniel Àlvasd. 
+	* Retrieved from - https://unsplash.com/photos/QJlg2KSl0fU 
+	* Date accessed - 17 February 2021
+
+
+6. Lucas Ianiak. 
+	* Retrieved from - https://www.pexels.com/photo/black-and-red-star-wars-helmet-4310574/ 
+	* Date accessed - 17 February 2021
+
+
+7. Elti Mishau. 
+	* Retrieved from - https://www.pexels.com/photo/silhouette-of-man-standing-against-black-and-red-background-333850/ 
+	* Date accessed - 17 February 2021 
+
+
+8. Sebastiaan Stam. 
+	* Retrieved from - https://www.pexels.com/photo/silhouette-of-man-1480690/ 
+	* Date accessed - 17 February 2021
 
 Features Implemented and Values learned:
 
@@ -71,4 +103,9 @@ Features Implemented and Values learned:
 
 	Website hosted at: https://web.cs.dal.ca/~kashfy/2170-ga1/GA1-files/
 	
+- Ishan Bhatia
+	* worked on the front end UI for the quiz across all the pages
+	* I also worked on the loop which helps in displaying the quiz
+	* Assisted with fixing minor bugs along the way 
 
+	What I learned: This assignment helped me reinforce the knowledge garnered from my previous web development course and also allowed me to practically apply the concepts of php learned in this course. 
