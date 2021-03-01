@@ -70,7 +70,6 @@ include "includes/header.php";
                     <span id = "time">00:05:00</span>
                     </h1>
         </div>
-        //                Use POST method to send form by default.
             <form action="includes/checkAnswers.php" method = "POST" id = "quizForm">
         <?php
         require_once "includes/db.php";

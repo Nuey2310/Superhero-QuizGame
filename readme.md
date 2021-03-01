@@ -27,6 +27,14 @@
 - If you are unsure about anything, please contact Raghav, Aref (TA) or the rest of the team.
 - Make sure that your queries are sent to Raghav at least 2 business days before the assignment is due, so as to avoid any delays in responses.
 
+## Game Information
+
+### Game Name: Superhero Trivia Quiz
+
+### Game Summary
+
+- Superhero Trivia Quiz is an interactive quiz game that lets the user make the choice to play quizzes on any one of three popular culture franchises. 
+
 ## Citations and notes
 1. Include full citations (author name, URL and date accessed) for each citation you include.
 2. If you have used any images or content that you have created yourself, include a comment in the references AND in the part of the code in which you use the content to indicate that the content was created by yourself.
@@ -78,6 +86,13 @@ Citation List:
 	* Retrieved from - https://www.pexels.com/photo/silhouette-of-man-1480690/ 
 	* Date accessed - 17 February 2021
 
+9. JavaScript setInterval() function, By: Programiz.
+	* Retrieved -  https://www.programiz.com/javascript/setInterval
+        * Date accessed - 21 February 2021
+
+10. JavaScript 'this' keyword and global variables, By: MDN
+	* Retrieved - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+	* Date accessed - 21 February 2021
 Features Implemented and Values learned:
 
 - Dhairy Raval
@@ -111,3 +126,9 @@ Features Implemented and Values learned:
 	What I learned: This assignment helped me reinforce the knowledge garnered from my previous web development course and also allowed me to practically apply the concepts of php learned in this course. 
 
 	Website hosted at: https://web.cs.dal.ca/~ibhatia/2170-ga1/GA1-files 
+
+- Arjun Banga
+	* Implemented the quiz timer.
+	* Implemented the script that calculates the score and passess it to be displayed
+	
+	What I learned: I learned more about JavaScript and php form processing. This assignment taught me how to collaborate in group projects. Overall, this project was a success.

@@ -27,19 +27,22 @@ var seconds = 300;
 function startTimer() {
 if(this.seconds != 0) {
 var timer = setInterval(function() {
-
+      //Dividing seconds to hours, minutes and seconds
       var hours = parseInt(this.seconds / 3600);
       var minutes = parseInt(this.seconds % 3600 / 60);
       var seconds = parseInt(this.seconds % 3600 % 60);
       
+
       hours = hours < 10 ? "0" + hours : "" + hours;
       minutes = minutes < 10 ? "0" + minutes : "" + minutes;
       seconds = seconds < 10 ? "0" + seconds : "" + seconds;
       
+      //Displaying as timer moves
       document.getElementById("time").innerHTML = hours + ":" + minutes + ":" + seconds;
       this.seconds--; 
       
       if(this.seconds == 0) {
+	//submit when timer ends
         document.getElementById('quizForm').submit();
         clearInterval(timer);
       }

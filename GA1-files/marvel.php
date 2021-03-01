@@ -60,7 +60,7 @@
             </div>
             
         </div>
-<!--        Get the data from the database-->
+        <!--Get the data from the database-->
 
         <div class="questionContent">
 
@@ -70,7 +70,7 @@
                     <span id = "time">00:05:00</span>
                     </h1>
             </div>
-            //                Use POST method to send form by default.
+            <!-- Use POST method to send form by default.-->
             <form action="includes/checkAnswers.php" method = "POST" id = "quizForm">
 
 
@@ -85,7 +85,7 @@
                     <div class="individualQuestions">
 
                         <?php
-                        //                  These variables are used to diplay questionString and options in html
+                        //These variables are used to diplay questionString and options in html
                         $questionString = $row['questionText'];
                         $optionA = $row['option1'];
                         $optionB = $row['option2'];
