@@ -132,3 +132,5 @@ Features Implemented and Values learned:
 	* Implemented the script that calculates the score and passess it to be displayed
 	
 	What I learned: I learned more about JavaScript and php form processing. This assignment taught me how to collaborate in group projects. Overall, this project was a success.
+
+    Website hosted at: https://web.cs.dal.ca/~banga/2170-ga1/GA1-files/
