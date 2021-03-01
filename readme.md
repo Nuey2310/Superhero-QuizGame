@@ -103,9 +103,13 @@ Features Implemented and Values learned:
     	Website hosted at: https://web.cs.dal.ca/~draval/2170-ga1/GA1-files/
 
 - Neuer Gao
+    * I made the idea of making a interesting quiz.
     * Refactored the database based on what Dhairy do, made the database structure better for back-end development and made the improved the db.php file. 
 	* Get the information from the database, display them on 3 websites (marvel.php; dc.php, starWars.php), made the html elements generated dynamically by php. 
 	* Fixed some error before we submit and host this website.
+	* Website host URL: https://web.cs.dal.ca/~jiahaog/2170-ga1/GA1-files/
+	The most meaningful I learnt is how to host a website on Internet. This is the very first time that I host an webpage on Internet, so everyone 
+    can access this website.
  
 
 - Miftahul Kashfy
