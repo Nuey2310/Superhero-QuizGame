@@ -76,7 +76,7 @@
 
             <?php
             require_once "includes/db.php";
-            $qurey = "SELECT*FROM `question-data` WHERE `Type` = 'MARVEL'";
+            $qurey = "SELECT * FROM `question-data` WHERE `Type` = 'MARVEL'";
             $result = $dbConnection->query($qurey);
             $x = 1;
             while ($row = $result->fetch_assoc()) {

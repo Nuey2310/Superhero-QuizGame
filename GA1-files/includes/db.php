@@ -5,10 +5,10 @@
     - Created db.php file for connection with the database-->
 <?php
 	
-	$hostServer = "db.cs.dal.ca";
-	$usrN = "jiahaog";
-	$pass = "mXxXADuGgEL5CvnjhqQ4tKotq";
-	$dbName = "jiahaog";
+	$hostServer = "localhost";
+	$usrN = "root";
+	$pass = "root";
+	$dbName = "2170db";
 	$dbConnection = new mysqli($hostServer, $usrN, $pass, $dbName);
 
 	if($dbConnection -> connect_error){
